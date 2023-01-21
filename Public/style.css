@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif ;
+}
+.nav {
+  background-color: rgba(0, 0, 0, 1.7);
+}
+.nav-item :hover{
+  color: rgb(122, 7, 7);
+}
+.dropdown-menu{
+  background-image: linear-gradient(90deg, rgb(245, 181, 6), rgb(146, 87, 20));
+}
+.dropdown-menu :hover{
+  background-color: rgba(0, 0, 0, 0.055);
+}
+.photo{
+    background-image: url("images/iff1.PNG");
+    width: 100%;
+    height: 150%;
+    background-position: center;
+    background-size: cover;
+}
+.iconcol{
+    color: blue;
+}
+ .banner-text { 
+    padding-left: 5%;
+    margin-top: 10%;
+    /* position: absolute;
+    top: 15%;
+    left: 27%; */
+ }
+.back{
+    background-color: black;
+  }
+  /*
+  .learn{
+  position: relative;
+  width: 150px;
+  padding: 10px 0;
+  text-align: center;
+  margin: 20px 10px;
+  border: 2px solid greenyellow;
+  background: transparent;
+  color: white;
+  cursor: pointer;
+  overflow: hidden;
+  text-transform:uppercase ;
+}
+/* {
+  background-color: greenyellow ;
+  height: 100%;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s; 
+} */
+/* .learn:hover{
+  background-color: greenyellow ;
+  height: 100%; */
+  /* width: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0; */
+  /* z-index: -1; */ 
+  /* transition: 0.5s;  */
+/* } */ 
+.hidden {
+  opacity: 0;
+  filter: blur(4px);
+  transform: translate(-100%);
+  transition: all 4s;
+}
+.show{
+  opacity: 1;
+  filter: blur(0);
+  transform: translateX(0);
+}
+.sweet{
+    background-image: url("images/iff8.PNG");
+     width: 100%; 
+    background-size: 100vh ; 
+    background-size: cover;
+    background-position: center;    
+}
+.samo:before{
+  content: "";
+  /* display: block; */
+  width: 50px;
+  height: 4px;
+  background: rgb(255, 198, 10);
+  position: absolute;
+  /* right: 0px; */
+  left: 48%;
+  /* bottom: %; */
+  /* top: 10%; */
+}
+.contact{
+    background-image: url("images/iff11.PNG");
+    width: 100%;
+    background-size: 100vh ; 
+    /* height: 90vh; */
+    background-position: center; 
+    background-size: cover; 
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 5%;
+    padding-bottom: 3%;
+    border-radius: 5%;
+}
+.whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 30px;
+    background-color: rgb(51, 150, 27);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    /* box-shadow: 2px 2px 3px rgba(189, 184, 184, 0.658); */
+    z-index: 100;
+  }
+.whatsapp_float:hover{
+    color: rgb(5, 5, 5);
+}
+  .whatsapp-icon {
+    margin-top: 16px;
+  }
+
+  /* for mobile */
+  @media screen and (max-width: 767px){
+    .whatsapp-icon {
+      margin-top: 10px;
+    }
+    .whatsapp_float {
+      width: 40px;
+      height: 40px;
+      bottom: 20px;
+      right: 10px;
+      font-size: 22px;
+    }
+  }

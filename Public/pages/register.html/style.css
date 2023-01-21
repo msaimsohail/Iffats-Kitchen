@@ -1,0 +1,50 @@
+body {
+    background: rgb(255, 198, 10);
+}
+  .side {
+    border: 2px solid rgb(0, 0, 0);
+    height: 80%;
+    margin: auto;
+}
+input{
+    background-image: linear-gradient(90deg, rgb(17, 14, 14), rgb(82, 47, 1));
+    color: white;
+}
+button{
+    background-color: transparent;
+    border-radius: 5px solid black;
+
+}
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+.footer{
+    margin-top: 80px;
+    background-color: black;
+}
+
+/* whatsapp */
+.whatsapp_float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 30px;
+    background-color: rgb(51, 150, 27);
+    color: rgb(255, 255, 255);
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    /* box-shadow: 2px 2px 3px rgba(189, 184, 184, 0.658); */
+    z-index: 100;
+  }
+.whatsapp_float:hover{
+    color: rgb(5, 5, 5);
+}
+  .whatsapp-icon {
+    margin-top: 16px;
+  }
+
+
+
